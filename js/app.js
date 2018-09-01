@@ -1,0 +1,1 @@
+let cat = document.getElementById('cat');
