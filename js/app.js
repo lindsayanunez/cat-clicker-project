@@ -1,4 +1,9 @@
-function displayClicks(){
+function Cat(name, image){
+  this.name = name;
+  this.image = image;
+}
+
+Cat.prototype.displayClicks = function(){
   let clicks = 0;
   let cat = document.getElementById('cat');
   let clickCount = document.querySelector('.clickCount');
@@ -7,16 +12,6 @@ function displayClicks(){
   clicks ++;
   clickCount.innerHTML = clicks;
   });
-}
-
-displayClicks();
-
-
-
-function Cat(name, image, displayClicks){
-  this.name = name;
-  this.image = image;
-  this.displayClicks = displayClicks;
 }
 
 let cat1 = new Cat('Aria','/img/cat1.jpg')
