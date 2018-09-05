@@ -14,5 +14,10 @@ Cat.prototype.displayClicks = function(){
   });
 }
 
-let cat1 = new Cat('Aria','/img/cat1.jpg')
+let cat1 = new Cat('Aria','/img/cat1.jpg');
 let cat1 = new Cat('Leo','/img/cat2.jpg')
+
+document.addEventListener("DOMContentLoaded", function() {
+
+
+});
